@@ -18,53 +18,39 @@ html {
 
 .main {
   max-width: 1740px;
-  margin: 104px 80px;
   padding: 0 15px;
 }
 
-.main__title {
+.article {
+  padding: 60px 35px;
+}
+
+.article__title {
   font-size: 50px;
   margin-bottom: 52px;
 }
 
-.main__article {
+.article__paragraph {
   font-size: 22px;
+  margin-bottom: 52px;
 }
 
-.main__paragraph {
+.article__list {
+  margin: 0 0 52px 0;
+}
+
+.article__image {
+  margin-bottom: 52px;
+} 
+
+.article__title_h2 {
   font-size: 22px;
+  margin-bottom: 0;
 }
 
-.paragraph__article {
-  padding-bottom: 52px;
-  font-size: 22px;
-}
-
-.main__nav {
-  margin-top: 52px;
-}
-
-.main__list {
-  margin: 0;
-}
-
-.paragraph__list {
-  max-width: 1100px;
-}
-
-.section__paragraph_inner:first-child {
-  padding-bottom: 52px;
-}
-
-.section__image {
-  padding: 52px 0;
-}
-
-.paragraph__title {
-  font-size: 22px;
-}
-
-.paragraph__title_subtitle {
+.article__title_h3 {
   font-size: 22px;
   font-weight: normal;
+  margin-bottom: 0;
 }
+
